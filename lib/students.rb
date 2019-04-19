@@ -1,8 +1,8 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks. 
 
 def highest_student_gpa
-  # "SELECT * FROM students WHERE  "
-  "SELECT MAX(gpa) FROM students;"
+  "SELECT * FROM students WHERE MAX(gpa);"
+  # "SELECT MAX(gpa) FROM students;"
 end
 
 def lowest_student_gpa
