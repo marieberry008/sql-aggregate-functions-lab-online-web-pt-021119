@@ -2,7 +2,7 @@
 
 def highest_student_gpa
   # "SELECT * FROM students WHERE  "
-  SELECT MAX(gpa) FROM students;
+  "SELECT MAX(gpa) FROM students;"
 end
 
 def lowest_student_gpa
